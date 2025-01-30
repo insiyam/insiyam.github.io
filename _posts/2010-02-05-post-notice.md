@@ -1,5 +1,5 @@
 ---
-title: "Post: Notice"
+title: "Upcoming Post"
 categories:
   - Blog
 tags:

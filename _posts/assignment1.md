@@ -5,7 +5,7 @@ categories:
   - blog
 tags:
   - assignment
-  - update
+
 ---
 # Working with a Corpus
 
@@ -49,7 +49,11 @@ The decision of using R and tools like Voyant or the tidyverse came from the abi
 By utilizing the “MostDistinctiveWords” R code provided by the Professor, we were able to upload the three collections of text (ROR, Male ROR, and Female ROR), clean and tokenize their contents, and then compare word frequencies across the corpora. This is achieved by importing each text as a single string, breaking it into sentences, and then further splitting those sentences into individual words using the tidytext function unnest_tokens(). Next, it removes common stopwords (e.g., “the,” “of,” “and”) to focus on the most meaningful terms. By binding the three datasets together and labeling each one (“ROR,” “Male_ROR,” “Female_ROR”), the code can then compute the relative frequency (proportion) of each word in each corpus. Finally, the script uses ggplot2 to create a scatterplot that highlights the differences in word usage between ROR and the other two groups, making it easy to spot which words appear disproportionately in one corpus versus the others. 
 
 
+###### Plot made with R - Large version
+![Plot made with R - Large version](https://raw.githubusercontent.com/vicnadu/digital-humanities/refs/heads/master/assets/images/plot.png)
 
+###### Plot made with R - Small version
+![Plot made with R - Small version](https://raw.githubusercontent.com/vicnadu/digital-humanities/refs/heads/master/assets/images/plot2.png)
 
 
 Looking at the plot comparing word frequencies, we can notice several patterns in the corpus:

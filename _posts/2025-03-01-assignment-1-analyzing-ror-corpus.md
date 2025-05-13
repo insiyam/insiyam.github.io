@@ -1,15 +1,14 @@
 ---
-
-title: "Assignment 1"
-
+title: "Assignment 1 - Analyzing ROR Corpus with Voyant and R"
 categories:
-  - blog
+  - Assignments
+  - Blog
 tags:
-  - assignment
-
+  - Assignments
+  - Voyant
 ---
-# Building a Corpus with NYUAD ROR
 
+# Working with a Corpus
 
 ## Introduction
 How do we understand the student body of our campus, their questions, their fears and their connection to social media? For assignment one, we chose a corpus from a relatively unusual place. Foregoing Project Gutenberg, we chose a corpus that was institutionally and geographically relevant to us here at NYUAD, the Facebook group known as ROR. We chose to compare posts from ROR, Female ROR, and Male ROR, to bring a new understanding of our student body, especially looking at dynamics between gendered and non-gendered spaces. By using tools like R and Voyant Tools, our exploratory data analysis allowed us to draw conclusions about the language used in these forums, and how they might reflect larger societal and institutional principles.  
@@ -22,7 +21,6 @@ What I noticed from the male ROR group is that the average post length is very s
 
 ###### Insiya - Female ROR
 The Female ROR community, officially titled R♀R,  is a very active group, with frequent posts that I would categorize within two types: gendered activities, and vulnerable. The first category would be posts that refer to historical ‘feminine’ topics; on Female ROR these are most commonly female students selling clothes or items, but can also be self promotion about a nail service, questions on where to buy certain items or reviews of salons etc. The anonymous posts of Female ROR predate the official introduction in Facebook and it was managed through a Google Forms link where posts were collected and then posted by a separate “Anonymous Post” user account.  Nowadays, the in-built anonymous feature allows for quicker posts and features many different types of questions, from asking about internship stress to providing support for complex familial or romantic relationships. Since this feature was added to Facebook (during my freshman year), these anonymous posts have become more common and now I would say more than half of the posts are anonymous questions, even those that do not tie into traditional gender norms. I suspect this is because the general ROR does not have anonymous posts and the separate “NYUAD Confessions” page is not a private group and posts can be seen by anyone. It is also interesting that Female ROR utilizes the group rules feature which helps make the community feel more safe. I myself have used Female ROR for inquiries that I feel “don’t belong” in the general ROR, despite them being relatively impersonal and not anonymous. 
-
 
 ## Methodology
 
@@ -49,13 +47,11 @@ The decision of using R and tools like Voyant or the tidyverse came from the abi
  
 By utilizing the “MostDistinctiveWords” R code provided by the Professor, we were able to upload the three collections of text (ROR, Male ROR, and Female ROR), clean and tokenize their contents, and then compare word frequencies across the corpora. This is achieved by importing each text as a single string, breaking it into sentences, and then further splitting those sentences into individual words using the tidytext function unnest_tokens(). Next, it removes common stopwords (e.g., “the,” “of,” “and”) to focus on the most meaningful terms. By binding the three datasets together and labeling each one (“ROR,” “Male_ROR,” “Female_ROR”), the code can then compute the relative frequency (proportion) of each word in each corpus. Finally, the script uses ggplot2 to create a scatterplot that highlights the differences in word usage between ROR and the other two groups, making it easy to spot which words appear disproportionately in one corpus versus the others. 
 
-
 ###### Plot made with R - Large version
 ![Plot made with R - Large version](https://raw.githubusercontent.com/vicnadu/digital-humanities/refs/heads/master/assets/images/plot.png)
 
 ###### Plot made with R - Small version
 ![Plot made with R - Small version](https://raw.githubusercontent.com/vicnadu/digital-humanities/refs/heads/master/assets/images/plot2.png)
-
 
 Looking at the plot comparing word frequencies, we can notice several patterns in the corpus:
 * Words Appearing More Frequently in Female ROR: Certain terms related to personal experiences, feelings, or interpersonal dynamics (for instance, “feel,” “experience,” “appreciated”) appear more often in the Female ROR group than in the main ROR corpus. This might suggest that discussions in the Female ROR group have a more emotional tone and more intimate support.
@@ -65,13 +61,13 @@ Looking at the plot comparing word frequencies, we can notice several patterns i
 ## Conclusion
 This assignment attempts to analyze how three distinct NYUAD Facebook groups—ROR (open to all students), Male ROR, and Female ROR—use language when discussing campus life, with a focus on posts containing the word “everyone.” Motivated by the need to see patterns not easily captured in a manual reading, the analysis employs computational methods in R to tokenize text, remove stopwords, and compare word frequencies across the three corpora, making it possible to quickly spot trends that would be difficult to notice through a purely linear reading. The results reveal that each group exhibits unique linguistic characteristics: the Female ROR group appears to use more emotionally charged words, while the Male ROR group includes more institution-oriented vocabulary, while the general ROR group contains a blend of both. These findings highlight not only surprising differences (such as the prevalence of certain personal or organizational terms in specific groups) but also the value of digital tools in displaying such distinctions. 
 
-
 ## Work breakdown
 In the first meeting, we both worked together to brainstorm the initial idea, which was suggested by Insiya. In the second meeting, we brainstormed the methodology of selecting the posts and collected all of them equally, making sure to replace any duplicated posts that we collected from ROR. In the third and final meeting, we divided each other’s roles and began the process of using the tools and writing the analysis, which resulted in the following breakdown:
 
 ##### Insiya
 * Came up with the initial idea during the brainstorming
 * Used Voyant to analyze the corpus
+* Formatted the Markdown code
 * Wrote the following sections:
     * Introduction
     * Background
@@ -95,4 +91,4 @@ Drucker, J. (2021). The Digital Humanities Coursebook: An Introduction to Digita
 Kim Adams and Saronik Bosu (2022). High Theory Podcast Episode: Distant Reading
 A Discussion with Ama Bemma Adwetewa-Badu
 
-
+<!-- This assignment is ready to be graded. -->

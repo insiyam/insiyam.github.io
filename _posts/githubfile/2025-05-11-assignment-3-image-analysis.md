@@ -18,7 +18,7 @@ As someone who works in visual culture, I am very familiar with the traditional 
 
 ## Orange Data Mining
 
-![Image Grid with Painters model on uncluttered stamps](80f37d98-44e2-4606-944d-08444e29ed48.png)
+![Image Grid with Painters model on uncluttered stamps](https://drive.google.com/file/d/1I7v_pTCXAcFGTExf9xDNCFGaLcQpCBP-/view?usp=drive_link)
 
 Image Grid with Painters model on uncluttered stamps
 

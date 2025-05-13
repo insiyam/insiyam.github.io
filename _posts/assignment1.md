@@ -1,4 +1,5 @@
 ---
+markdown: kramdown
 title: "Assignment 1"
 
 categories:
@@ -7,7 +8,7 @@ tags:
   - assignment
 
 ---
-# Working with a Corpus
+# Building a Corpus with NYUAD ROR
 
 
 ## Introduction

@@ -1,5 +1,5 @@
 ---
-markdown: kramdown
+
 title: "Assignment 1"
 
 categories:

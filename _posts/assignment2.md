@@ -1,11 +1,11 @@
 ---
-markdown: kramdown
-title: "Assignment 2"
+title: "Welcome to Jekyll!"
+date: 2019-04-18T15:34:30-04:00
 categories:
-  - Blog
+  - blog
 tags:
-  - spacial data
-  - zanzibar
+  - Jekyll
+  - update
 ---
 # Commercial Licences in 1914 Zanzibar
 ##  By Fatima and Insiya

@@ -1,9 +1,12 @@
-# assignment 3 image
-
-category: school
-completed: No
-date: May 2, 2025
-class: digital humanities
+---
+title: "Welcome to Jekyll!"
+date: 2019-04-18T15:34:30-04:00
+categories:
+  - blog
+tags:
+  - Jekyll
+  - update
+---
 
 # Stamping Identity: Image Analysis of Stamps along the Silk Road
 

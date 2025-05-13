@@ -4,8 +4,8 @@ title: "Assignment 2"
 categories:
   - Blog
 tags:
-  - link
-  - Post Formats
+  - spacial data
+  - zanzibar
 ---
 # Commercial Licences in 1914 Zanzibar
 ##  By Fatima and Insiya

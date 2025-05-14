@@ -1,13 +1,12 @@
 ---
 markdown: kramdown
-title: "Assignment 2"
+title: "Assignment 2 - Mapping Commercial Licences in 1914 Zanzibar"
 categories:
   - Blog
 tags:
-  - link
-  - Post Formats
+  - trade
 ---
-# Commercial Licences in 1914 Zanzibar
+# Spatial Data
 ##  By Fatima and Insiya
 # Introduction
 For this assignment, we focused on extracting data from the Zanzibar Gazette published in 1914. Our selected dataset centres on Commercial Licences Issued in Zanzibar, a recurring section in the Gazette that lists individuals, their place of residence, and the type of business licence they were granted. We chose this dataset because it offers a unique glimpse into the economic landscape of colonial Zanzibar—what kinds of trades were being practised, where economic activity was concentrated, and who was participating in this commercial ecosystem.  

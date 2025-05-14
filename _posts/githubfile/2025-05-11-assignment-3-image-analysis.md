@@ -42,7 +42,7 @@ The differences produced by these two models were instant. Painters definitely p
 
 Something I want to note is that the Image Grids also changed after uploading the clustered data. I am not really sure what caused that exactly since I don’t know how the test and score or class affected the hierarchical clustering. Between the two models, the hierarchical clustering did not change much in Origins but in Subject, Painters seems to have been identify stamp produced in specific countries and times while SqueezeNet seems more mixed. Even stamps that were produced in the together, with some variations, were split up by the SqueezeNet model, combining different years often.
 
-![Section of hierarchical clustering from SqueezeNet in Subjects category](https://github.com/insiyam/insiyam.github.io/blob/d8932636aeccea0101a1aeb141cb98c2c513bbda/assets/images/clustering.closeup.png)
+![Section of hierarchical clustering from SqueezeNet in Subjects category](/assets/images/clustering.closeup.png)
 
 
 
@@ -50,7 +50,7 @@ Something I want to note is that the Image Grids also changed after uploading th
 
 After uploading the clustered data, I was also able to Test & Score and create some Confusion Matrices. 
 
-![Confusion matrices for both categories and both models](https://github.com/insiyam/insiyam.github.io/blob/d8932636aeccea0101a1aeb141cb98c2c513bbda/assets/images/confusionmatrix.comparison.png)
+![Confusion matrices for both categories and both models](/assets/images/confusionmatrix.comparison.png)
 
 Confusion matrices for both categories and both models
 
@@ -64,7 +64,7 @@ I chose to create captions for some of these stamps as I was curious to see how 
 
 ##### Captions
 
-![Selection of stamps and their predicted captions](https://github.com/insiyam/insiyam.github.io/blob/d8932636aeccea0101a1aeb141cb98c2c513bbda/assets/images/captions.comparison.png)
+![Selection of stamps and their predicted captions](/assets/images/captions.comparison.png)
 
 It seems that DV is better at recognizing realistic figures or colorful ornamental design. I was most surprised by its poor captioning of stamps from Egypt. I would think that these images were part of the “exclusionary visual canon” of the training model since Ancient Egyptian culture has been famous in the West throughout history and continues to be popular with many photographs and media showing these images or sites (Impett). The pyramids are such a famous site and silhouette that I thought the algorithm would identify it, however it fully missed its iconic status. The Egyptian images also have been identified as women, probably due to the ‘long hair’ of the traditional dress and the AI’s bias towards certain gender ideology.  I also noticed that the predictions tend to mention highly specific items like guns or fire hydrants that feel a bit random and make the caption seem ironic. It was also interesting to have the model evaluate the stamp from New Zealand as it shows a stylized lizard(?) but was identified as a bird somehow. 
 

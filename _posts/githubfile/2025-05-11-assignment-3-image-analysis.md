@@ -4,8 +4,8 @@ title: "Assignment 3 - Stamping Identity"
 categories:
   - blog
 tags:
-  - Jekyll
-  - update
+  - trade
+  - stamps
 ---
 
 # Image Analysis of Stamps along the Silk Road

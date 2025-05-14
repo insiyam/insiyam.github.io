@@ -32,7 +32,7 @@ While browsing on the website, I found a tag called [“Ancient Art”](https://
 
 In Orange, I uploaded my files first in one folder and tried different embedding models to create the Image Grid. I tried to use multiple models but many of them kept failing for me for some reason and in the end I was only able to get Painters and SqueezeNet to work. 
 
-![Comparison between Embedding Models on uncategorized images](https://github.com/insiyam/insiyam.github.io/blob/9c13e0ec2c4d6f4423e918497fd6d9e0122f8488/assets/images/unclustered.imagegrid.comparison.png)
+![Comparison between Embedding Models on uncategorized images](/assets/images/unclustered.imagegrid.comparison.png)
 
 Comparison between Embedding Models on uncategorized images
 
@@ -64,7 +64,7 @@ I chose to create captions for some of these stamps as I was curious to see how 
 
 ##### Captions
 
-![Selection of stamps and their predicted captions](https://github.com/insiyam/insiyam.github.io/blob/d8932636aeccea0101a1aeb141cb98c2c513bbda/assets/images/captions.comparison.png))
+![Selection of stamps and their predicted captions](https://github.com/insiyam/insiyam.github.io/blob/d8932636aeccea0101a1aeb141cb98c2c513bbda/assets/images/captions.comparison.png)
 
 It seems that DV is better at recognizing realistic figures or colorful ornamental design. I was most surprised by its poor captioning of stamps from Egypt. I would think that these images were part of the “exclusionary visual canon” of the training model since Ancient Egyptian culture has been famous in the West throughout history and continues to be popular with many photographs and media showing these images or sites (Impett). The pyramids are such a famous site and silhouette that I thought the algorithm would identify it, however it fully missed its iconic status. The Egyptian images also have been identified as women, probably due to the ‘long hair’ of the traditional dress and the AI’s bias towards certain gender ideology.  I also noticed that the predictions tend to mention highly specific items like guns or fire hydrants that feel a bit random and make the caption seem ironic. It was also interesting to have the model evaluate the stamp from New Zealand as it shows a stylized lizard(?) but was identified as a bird somehow. 
 

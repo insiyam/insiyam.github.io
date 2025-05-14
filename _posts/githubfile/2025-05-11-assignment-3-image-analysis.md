@@ -33,8 +33,7 @@ While browsing on the website, I found a tag called [“Ancient Art”](https://
 In Orange, I uploaded my files first in one folder and tried different embedding models to create the Image Grid. I tried to use multiple models but many of them kept failing for me for some reason and in the end I was only able to get Painters and SqueezeNet to work. 
 
 ![Comparison between Embedding Models on uncategorized images](/assets/images/unclustered.imagegrid.comparison.png)
-
-Comparison between Embedding Models on uncategorized images
+*Comparison between Embedding Models on uncategorized images*
 
 The differences produced by these two models were instant. Painters definitely prioritized color, lightness, saturation and contrast. The diagonal line represents a visual divide between lighter images that use more white and with high contrast subjects that appear brighter and more saturated. The circle in the center right also seems to consist of many artifacts, especially those that have a high contrast with their background. The images seem to be aligned on mostly formalist qualities compared to SqueezeNet where I think there was more subject detection. The top left circle holds images that have full figured poses and the bottom center holds artifacts, especially ceramics. These groups seem to be based on the content of the image and do not share a more consistent formalist style, like Painters. The curved line across the right also seems to accurately capture the Abstract tag, compared to Painters, where the Abstract stamps blend in with drawings or other subjects that are in a similar color palette.  Similar to the MET project, the images that were placed next to each other can also pose some problems as they mix up humans, animals, or divine images, lacking the cultural sensitivity that is necessary for iconic images (Arnold & Tilton). Interestingly, both of these Image Grids do not capture any sense of national identity. The only example would be the grouping of the abstract or lighter stamps which tend to correlate with Islamic nations like Iran, Pakistan, and UAE, but this is still a weak grouping as it relies more on style and maybe even cultural values, rather than national icons. 
 
@@ -43,7 +42,7 @@ The differences produced by these two models were instant. Painters definitely p
 Something I want to note is that the Image Grids also changed after uploading the clustered data. I am not really sure what caused that exactly since I don’t know how the test and score or class affected the hierarchical clustering. Between the two models, the hierarchical clustering did not change much in Origins but in Subject, Painters seems to have been identify stamp produced in specific countries and times while SqueezeNet seems more mixed. Even stamps that were produced in the together, with some variations, were split up by the SqueezeNet model, combining different years often.
 
 ![Section of hierarchical clustering from SqueezeNet in Subjects category](/assets/images/clustering.closeup.png)
-
+*Section of hierarchical clustering from SqueezeNet in Subjects category*
 
 
 ##### Confusion Matrix
@@ -51,8 +50,7 @@ Something I want to note is that the Image Grids also changed after uploading th
 After uploading the clustered data, I was also able to Test & Score and create some Confusion Matrices. 
 
 ![Confusion matrices for both categories and both models](/assets/images/confusionmatrix.comparison.png)
-
-Confusion matrices for both categories and both models
+*Confusion matrices for both categories and both models*
 
 In Origin, both models performed similarly with higher accuracy only for Gulf and West Asia, with Painters having a very slight edge dominant tags while SqueezeNet in smaller tags. Painters consistently over predicted Guld and West Asia from almost all regions. SqueezeNet mixed up Gulf and West Asia more often but also predicted Africa or East Asia as Gulf more often. Interestingly, SqueezeNet did not misassign any South Asia stamps as Gulf, despite how Pakistan blended with Iran and UAE in the Image Grid. SqueezeNet also assigned higher accuracy for Africa, Easy Asia, South Asia and South East Asia.   
 
@@ -65,6 +63,7 @@ I chose to create captions for some of these stamps as I was curious to see how 
 ##### Captions
 
 ![Selection of stamps and their predicted captions](/assets/images/captions.comparison.png)
+*Selection of stamps and their predicted captions*
 
 It seems that DV is better at recognizing realistic figures or colorful ornamental design. I was most surprised by its poor captioning of stamps from Egypt. I would think that these images were part of the “exclusionary visual canon” of the training model since Ancient Egyptian culture has been famous in the West throughout history and continues to be popular with many photographs and media showing these images or sites (Impett). The pyramids are such a famous site and silhouette that I thought the algorithm would identify it, however it fully missed its iconic status. The Egyptian images also have been identified as women, probably due to the ‘long hair’ of the traditional dress and the AI’s bias towards certain gender ideology.  I also noticed that the predictions tend to mention highly specific items like guns or fire hydrants that feel a bit random and make the caption seem ironic. It was also interesting to have the model evaluate the stamp from New Zealand as it shows a stylized lizard(?) but was identified as a bird somehow. 
 
